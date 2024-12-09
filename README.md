@@ -2,6 +2,15 @@
 
 The **Red Blue App** is a color limit checking application built with the **Express.js Framework** and deployed on **Google Cloud Run**. It uses **Node.js**, **Docker**, **Redis**, and **MongoDB** to provide scalable rate-limiting functionality for button clicks.
 
+## APPROACH
+DEPLOY THE NODEJS APP IN GCLOUD RUN AND CREATE VPC WITH DEFAULT SUBNET 
+- **CREATE A VPC CONNECTOR**
+- **THIS VPC CONNECTOR ACTS AS A MEDIUM BETWEEN THE CLOUDSQL,REDIS COMMUNICATION WITH CLOUD RUN APPLICATIONS**
+- **PUB/SUB INTEGRATION WITH THE CLOUD RUN CAN BE DONE USING THE CLOUD FUNCTIONS**
+
+## ARCHITECTURE OF APPLICATION
+![Cloud Architecture Diagram](https://github.com/user-attachments/assets/fc114b98-a61c-44c7-87c6-daef95c7bd5f)
+
 ## Technologies Used
 
 - **Express.js**: Web framework for Node.js
